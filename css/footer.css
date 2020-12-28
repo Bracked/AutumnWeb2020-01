@@ -1,0 +1,105 @@
+.footer {
+  padding-top: 50px;
+  background-color: #333333;
+}
+
+.footer__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.footer__nav :not(:last-child) {
+  margin-right: 50px;
+}
+
+.footer__header {
+  margin-bottom: 30px;
+}
+
+.footer__links {
+  width: 360px;
+}
+
+.footer__links li {
+  margin-bottom: 10px;
+}
+
+.footer__links li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer__bottom {
+  height: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer__copyright {
+  padding: 23px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #565656;
+  border-top: 1px solid #4e4e4e;
+  background-color: #333;
+}
+
+.header-footer {
+  color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.cals-footer__header {
+  margin-bottom: 35px;
+}
+
+.cals-footer__social {
+  margin-bottom: 40px;
+}
+
+.cals-footer__social a {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.cals-footer__contacts {
+  margin-bottom: 50px;
+}
+
+.cals-footer__contacts a {
+  font-size: 19px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.cals-footer__item {
+  margin-bottom: 17px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.cals-footer__button {
+  padding: 0px 40px;
+  margin-bottom: 50px;
+}
+
+.cals-footer__logo {
+  color: rgba(255, 255, 255, 0.13);
+}

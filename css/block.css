@@ -1,0 +1,56 @@
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border: 1px solid black;
+}
+
+.logo {
+  color: var(--color-mercury);
+  font-size: 52px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.social-ref {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-ref__item {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+}
+
+.social-ref__references {
+  padding: 11.5px 12px 12px 11.5px;
+  display: block;
+}
+
+.social-ref__references img {
+  width: 18px;
+  height: 18px;
+}
+
+.wts {
+  background-color: var(--color-apple);
+  -webkit-box-shadow: 0 8px 25px rgba(45, 208, 56, 0.5);
+          box-shadow: 0 8px 25px rgba(45, 208, 56, 0.5);
+}
+
+.vb {
+  background-color: var(--color-affair);
+  -webkit-box-shadow: 0 8px 25px rgba(123, 81, 157, 0.5);
+          box-shadow: 0 8px 25px rgba(123, 81, 157, 0.5);
+}
+
+.tl {
+  background-color: var(--color-picton);
+  -webkit-box-shadow: 0 8px 25px rgba(91, 186, 240, 0.5);
+          box-shadow: 0 8px 25px rgba(91, 186, 240, 0.5);
+}

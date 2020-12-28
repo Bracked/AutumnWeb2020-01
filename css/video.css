@@ -1,0 +1,286 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+boyd {
+  background-color: #ccc;
+}
+
+.container-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ccc;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.c-vidio {
+  position: relative;
+  width: 100%;
+  max-width: 1350px;
+  overflow: hidden;
+}
+
+.c-vidio:hover .controls {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: 0.3s -webkit-transform;
+  transition: 0.3s -webkit-transform;
+  -o-transition: 0.3s transform;
+  transition: 0.3s transform;
+  transition: 0.3s transform, 0.3s -webkit-transform;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.controls {
+  -webkit-transform: translateY(100%) translateY(-5px);
+      -ms-transform: translateY(100%) translateY(-5px);
+          transform: translateY(100%) translateY(-5px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.2s -webkit-transform;
+  transition: 0.2s -webkit-transform;
+  -o-transition: 0.2s transform;
+  transition: 0.2s transform;
+  transition: 0.2s transform, 0.2s -webkit-transform;
+}
+
+.orange-bar {
+  height: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.orange-juice {
+  height: 10px;
+  background-color: orangered;
+}
+
+.buttons {
+  width: 100%;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttons button {
+  background: none;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.buttons button.play::before {
+  content: '\f144';
+}
+
+.buttons button.pause::before {
+  content: '\f28b';
+}
+
+.buttons button.full::before {
+  content: '\f065';
+  font-weight: 900;
+}
+
+.buttons button.volume-off::before {
+  content: '\f028';
+  font-weight: 900;
+}
+
+.buttons button.volume-on::before {
+  content: '\f6a9';
+  font-weight: 900;
+}
+
+.buttons button::before {
+  content: '\f144';
+  font-family: 'Font Awesome 5 Free';
+  width: 30px;
+  height: 30px;
+  font-size: 28px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+.buttons button:hover::before {
+  color: orangered;
+}
+
+.audio {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  max-width: 1050px;
+  /* overflow: hidden; */
+}
+
+.audio__image {
+  width: 100%;
+  height: 650px;
+  position: relative;
+}
+
+.audio__image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.audio audio {
+  width: 100%;
+  outline: none;
+  background-color: #f1f3f4;
+}
+
+.video__slider {
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.slider__item {
+  width: 100%;
+  height: 100%;
+}
+
+/* Слайдер */
+/* Слайдер запущен */
+/* Слайдер с точками */
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Слайд */
+/* Слайд активный (показывается) */
+/* Слайд основной */
+/* Слайд по центру */
+/* Клонированный слайд */
+/* Стрелка */
+/* Стрелка влево */
+/* Стрелка вправо */
+/* Стрелка не активная */
+/* Точки (булиты) */
+/* Активная точка */
+/* Элемент точки */

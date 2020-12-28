@@ -1,0 +1,273 @@
+@charset "UTF-8";
+body {
+  font-family: Gilroy;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  color: var(--color-mercury);
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.btn-grad {
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.btn-grad a {
+  display: block;
+  padding: 11px 30px;
+  color: #fff;
+}
+
+.btn-grad--main {
+  -webkit-box-shadow: 0 8px 18px rgba(242, 147, 81, 0.45);
+          box-shadow: 0 8px 18px rgba(242, 147, 81, 0.45);
+  background-image: -webkit-gradient(linear, left top, right top, from(#f6bd60), to(#e88952));
+  background-image: -webkit-linear-gradient(left, #f6bd60 0%, #e88952 100%);
+  background-image: -o-linear-gradient(left, #f6bd60 0%, #e88952 100%);
+  background-image: linear-gradient(to right, #f6bd60 0%, #e88952 100%);
+}
+
+.btn-grad--secondory {
+  -webkit-box-shadow: 0 12px 20px rgba(132, 170, 237, 0.45);
+          box-shadow: 0 12px 20px rgba(132, 170, 237, 0.45);
+  background-image: -webkit-gradient(linear, left top, right top, from(#87aff1), color-stop(100%, #6c80cb), to(#6c80cb));
+  background-image: -webkit-linear-gradient(left, #87aff1 0%, #6c80cb 100%, #6c80cb 100%);
+  background-image: -o-linear-gradient(left, #87aff1 0%, #6c80cb 100%, #6c80cb 100%);
+  background-image: linear-gradient(to right, #87aff1 0%, #6c80cb 100%, #6c80cb 100%);
+}
+
+.btn-grad--transparent {
+  background-color: transparent;
+  border: 2px solid #6d81cc;
+}
+
+.btn-grad--transparent a {
+  display: block;
+  color: #6d81cc;
+}
+
+.social-ref {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-ref__item {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.social-ref__references {
+  padding: 11.5px 12px 12px 11.5px;
+  display: block;
+}
+
+.social-ref__references img {
+  width: 18px;
+  height: 18px;
+}
+
+.wts {
+  background-color: var(--color-apple);
+  -webkit-box-shadow: 0 8px 25px rgba(45, 208, 56, 0.5);
+          box-shadow: 0 8px 25px rgba(45, 208, 56, 0.5);
+}
+
+.vb {
+  background-color: var(--color-affair);
+  -webkit-box-shadow: 0 8px 25px rgba(123, 81, 157, 0.5);
+          box-shadow: 0 8px 25px rgba(123, 81, 157, 0.5);
+}
+
+.tl {
+  background-color: var(--color-picton);
+  -webkit-box-shadow: 0 8px 25px rgba(91, 186, 240, 0.5);
+          box-shadow: 0 8px 25px rgba(91, 186, 240, 0.5);
+}
+
+.tel {
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tel ::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/icon/phone.svg);
+}
+
+.email {
+  display: block;
+  position: relative;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.email ::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: -22px;
+  width: 16px;
+  height: 12px;
+  background-image: url(../img/icon/mail.svg);
+}
+
+/* Слайдер */
+/* Слайдер запущен */
+/* Слайдер с точками */
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Слайд */
+/* Слайд активный (показывается) */
+/* Слайд основной */
+/* Слайд по центру */
+/* Клонированный слайд */
+/* Стрелка */
+/* Стрелка влево */
+/* Стрелка вправо */
+/* Стрелка не активная */
+/* Точки (булиты) */
+/* Активная точка */
+/* Элемент точки */
+.title-main {
+  text-align: center;
+  color: #333;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.stock-news {
+  padding: 27px 24px 5px;
+  text-align: left;
+  -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 2px 15px rgba(0, 0, 0, 0.07);
+}
+
+.stock-news__image {
+  margin-bottom: 20px;
+}
+
+.stock-news__image img {
+  width: 100%;
+}
+
+.stock-news__date {
+  color: #ababab;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.stock-news__header {
+  color: #333333;
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.stock-news__text {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer-tl ::before {
+  content: '';
+  position: absolute;
+  top: 2;
+  left: 0px;
+  width: 21px;
+  height: 18px;
+  background: url(../img/icon/telegram.svg) center/cover no-repeat;
+  z-index: 10;
+}
+
+.footer-vb ::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 21px;
+  height: 22px;
+  background: url(../img/icon/viber.svg) center/cover no-repeat;
+  z-index: 10;
+}
+
+.footer-wts ::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 21px;
+  height: 21px;
+  background: url(../img/icon/whatsapp.svg) center/cover no-repeat;
+}
+
+.footer-tel ::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 19px;
+  height: 19px;
+  background: url(../img/icon/phone-w.svg) center/cover no-repeat;
+}
+
+.footer-mail ::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 21px;
+  height: 15px;
+  background: url(../img/icon/mail-w.svg) center/cover no-repeat;
+}
+
+.breadcrumbs {
+  font-size: 15px;
+  font-weight: 500;
+  color: #7d7d7d;
+}
+
+.breadcrumbs a {
+  color: #86afef;
+  text-decoration: underline;
+}
+
+.breadcrumbs span {
+  display: inline-block;
+  margin: 0 3px;
+}
